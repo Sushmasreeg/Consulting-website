@@ -19,15 +19,15 @@
     right: 0;
     position: relative;
     width: 100%;
-
+    z-index: 2;
 }
 
 .pattern-img {
     float: left;
     margin-left: -4em;
-    margin-top: -20em;
-    height: 35vh;
-    z-index: -1;
+    margin-top: -22em;
+    height: 20em;
+    width: 15em;
 }
 
 .green-bg-container {
@@ -37,7 +37,7 @@
     height: 10em;
     width: 10em;
     border-radius: 10%;
-    z-index: -1;
+    z-index: 1;
     background-color: var(--GREEN-PRIMARY);
 }
 
@@ -79,9 +79,3 @@
     flex-direction: column;
     color: var(--GREY-LIGHT);
 }
-
-@media (max-width: 1024px){
-    .pattern-img {
-        margin-top: -28em;
-    }
-  }

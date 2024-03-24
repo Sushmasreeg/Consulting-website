@@ -17,6 +17,7 @@
 .nav-items-bar {
     display: flex;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -56,4 +57,13 @@
 .call-button:hover {
     background-color: var(--BLACK-PRIMARY);
     color: var(--WHITE-PRIMARY);
+}
+
+@media (max-width: 720px) {
+    .call-button {
+        padding: 0;
+        p {
+            display: none;
+        }
+    }
 }
