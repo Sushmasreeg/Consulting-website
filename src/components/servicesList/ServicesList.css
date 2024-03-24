@@ -48,3 +48,9 @@
     cursor: pointer;
     flex: 1 0 25%;
 }
+
+@media (max-width: 720px) {
+    .services-list{
+        padding: 5em 3em;
+    }
+}

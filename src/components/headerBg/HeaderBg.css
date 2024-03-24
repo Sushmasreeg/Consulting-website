@@ -18,3 +18,9 @@
     border-radius: 20px;
     text-align: left;
 }
+
+@media (max-width: 720px) {
+    .header-bg-img{
+        padding: 5em 5em;
+    }
+}

@@ -79,3 +79,9 @@
     flex-direction: column;
     color: var(--GREY-LIGHT);
 }
+
+@media (max-width: 720px) {
+    .process{
+        padding: 5em 5em;
+    }
+}
