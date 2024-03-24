@@ -1,0 +1,59 @@
+.ask-expert-heading {
+    display: flex;
+    gap: 0.5em;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    background-color: var(--BROWN-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+    padding: 1.25em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-items-bar {
+    display: flex;
+    gap: 2em;
+}
+
+.nav-item {
+    display: flex;
+    gap: 0.5em;
+}
+
+.nav-item-fill {
+    content: url('../../assets/ellipse-no-fill.svg');
+}
+
+.nav-item:hover .nav-item-fill{
+    content: url('../../assets/ellipse-green.svg');
+}
+
+.nav-item:hover {
+    color: var(--GREEN-PRIMARY);
+}
+
+.call-button {
+    background-color: var(--WHITE-PRIMARY);
+    border: 0;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 5em;
+    gap: 0.8em;
+    cursor: pointer;
+}
+
+.call-button img {
+    background-color: var(--YELLOW-PRIMARY);
+    padding: 0.8em;
+    border-radius: 1.4em
+}
+
+.call-button:hover {
+    background-color: var(--BLACK-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+}

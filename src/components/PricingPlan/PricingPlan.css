@@ -1,0 +1,94 @@
+.pricing-plan {
+    display: flex;
+    padding: 10em 15em;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--OFF-WHITE);
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 1em;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: var(--WHITE-PRIMARY);
+    gap: 2em;
+    padding: 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.price-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    background-color: var(--BLACK-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.price-card-header > p {
+    padding-bottom: 1em;
+    border-bottom: 1px dashed #565656;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.price-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.get-plan-btn {
+    border: 1px solid #D6D6D6;
+    border-radius: 50px;
+    background-color: var(--WHITE-PRIMARY);
+    padding: 1em;
+}
+
+.per-month {
+    background-color: #565656 !important;
+}
+
+.price-card:hover {
+    .per-month {
+        background-color: var(--GREEN-PRIMARY) !important;
+    }
+    .get-plan-btn{
+        background-color: var(--YELLOW-PRIMARY);
+    }
+    box-shadow: 10px 10px 5px var(--GREY-PRIMARY);
+   
+}
+
+.list-item {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.list-item > div {
+    background-color: var(--BLACK-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+    width: 0.8em;
+    height: 0.8em;
+    padding: 0.2em;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

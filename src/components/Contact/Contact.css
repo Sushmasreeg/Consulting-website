@@ -1,0 +1,104 @@
+.contact {
+    padding: 10em 15em;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact > * {
+    flex: 1 1 25%;
+}
+
+.contact-details {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.contact-item > div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.contact-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #FFECBB;
+}
+
+.contact-item-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 1em;
+}
+
+.contact-form label {
+    font-size: 0.8em;
+}
+
+.input-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    flex: 1 1 25%;
+}
+
+.input-item > input, textarea {
+    padding: 1.5em 1.5em;
+    border-radius: 2em;
+    border: 1px solid #C1C1C1;
+    font-size: 1em;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+
+.contact-form > button {
+    text-align: left;
+    width: fit-content;
+    padding: 1em;
+    font-size: 1em;
+    background-color: var(--BLACK-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+    border-radius: 3em;
+    border: 0;
+    cursor: pointer;
+}
+
+.contact-form > button:hover {
+    background-color: var(--YELLOW-PRIMARY);
+    color: var(--BLACK-PRIMARY);
+}

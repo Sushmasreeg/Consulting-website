@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--BLACK-PRIMARY);
+    color: var(--WHITE-PRIMARY);
+    padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-item {
+    display: flex;
+    gap: 0.5em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.ext-link-icons {
+    display: flex;
+    gap: 1em;
+    cursor: pointer;
+}
+
+.ext-link-icons img {
+    height: 1.15em;
+}

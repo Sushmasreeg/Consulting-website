@@ -1,0 +1,20 @@
+.header-bg-img {
+    padding: 10em 15em;
+    background-image: url('../../assets/header-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-bg-div {
+    background-color: var(--WHITE-PRIMARY);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 2em;
+    width: fit-content;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: left;
+}
